@@ -49,40 +49,39 @@ main() {
     # INFO: If some variables appear unused, they are being used either externally
     # or in the plugin's features
     if [[ $theme == main ]]; then
-
-        thm_base="#191724";
-        thm_surface="#1f1d2e";
-        thm_overlay="#26233a";
-        thm_muted="#6e6a86";
-        thm_subtle="#908caa";
-        thm_text="#e0def4";
-        thm_love="#eb6f92";
-        thm_gold="#f6c177";
-        thm_rose="#ebbcba";
-        thm_pine="#31748f";
-        thm_foam="#9ccfd8";
-        thm_iris="#c4a7e7";
-        thm_hl_low="#21202e";
-        thm_hl_med="#403d52";
-        thm_hl_high="#524f67";
+        thm_base="#272e33";      # background
+        thm_surface="#2e383c";   # lighter background
+        thm_overlay="#374145";   # popups/modals background
+        thm_muted="#859289";     # muted text
+        thm_subtle="#9da9a0";    # subtle text
+        thm_text="#d3c6aa";      # main text
+        thm_love="#e67e80";      # red
+        thm_gold="#dbbc7f";      # yellow
+        thm_rose="#e69875";      # orange/peach
+        thm_pine="#a7c080";      # green
+        thm_foam="#83c092";      # cyan
+        thm_iris="#d699b6";      # purple/magenta
+        thm_hl_low="#2e383c";    # low highlight
+        thm_hl_med="#3a464c";    # medium highlight
+        thm_hl_high="#4f585e";   # high highlight
 
     elif [[ $theme == dawn ]]; then
 
-        thm_base="#faf4ed";
-        thm_surface="#fffaf3";
-        thm_overlay="#f2e9e1";
-        thm_muted="#9893a5";
-        thm_subtle="#797593";
-        thm_text="#575279";
-        thm_love="#b4367a";
-        thm_gold="#ea9d34";
-        thm_rose="#d7827e";
-        thm_pine="#286983";
-        thm_foam="#56949f";
-        thm_iris="#907aa9";
-        thm_hl_low="#f4ede8";
-        thm_hl_med="#dfdad9";
-        thm_hl_high="#cecacd";
+        thm_base="#fff9e8";      # background
+        thm_surface="#f6f0df";   # lighter background
+        thm_overlay="#efead4";   # popups/modals background
+        thm_muted="#939f91";     # muted text
+        thm_subtle="#829181";    # subtle text
+        thm_text="#5c6a72";      # main text
+        thm_love="#f85552";      # red
+        thm_gold="#dfa000";      # yellow
+        thm_rose="#f57d26";      # orange/peach
+        thm_pine="#8da101";      # green
+        thm_foam="#35a77c";      # cyan
+        thm_iris="#df69ba";      # purple/magenta
+        thm_hl_low="#f6f0df";    # low highlight
+        thm_hl_med="#efead4";    # medium highlight
+        thm_hl_high="#e5e1ca";   # high highlight
 
     elif [[ $theme == moon ]]; then
 
